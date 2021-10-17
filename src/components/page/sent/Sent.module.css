@@ -1,0 +1,17 @@
+.sent{
+       padding: .75rem 2rem .75rem .75rem;
+       margin-bottom: 2rem ;
+       background: #373E4E;
+       border-radius: 20px;
+       max-width: 20rem;
+       color: #fff;
+       position: relative;
+       text-align: left;
+       float: left
+
+}
+.sent img {
+       position: absolute;
+       right: -.5rem;
+       top: 1.3rem;
+} 

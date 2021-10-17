@@ -1,0 +1,10 @@
+.receive{
+       padding: .35rem 1rem;
+       margin: 1rem 0;
+       background: #272A35; 
+       border-radius: 1rem;
+       max-width: 20rem;
+       text-align: right;
+       color: #fff;
+       float: right;
+}

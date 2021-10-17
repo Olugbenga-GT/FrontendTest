@@ -1,0 +1,41 @@
+.input {
+       background: #252836;
+       border-radius: 2rem;
+       width: 65%;
+       display: flex;
+       justify-content: space-between;
+       padding: .5rem;
+       margin: .75rem auto;
+}
+.input span{
+       display: flex;
+       justify-content: space-around;
+       align-items: center;
+
+}
+.input img {padding-right: .75rem;}
+.input img:hover{cursor: pointer}
+.input input{
+background: #252836;
+height: 2rem;
+width: 85%;
+color: #808191;
+border: none;
+outline: none;
+}
+
+.input input:active,
+.input input:focus{
+       border: none;
+       outline: none;
+}
+
+@media screen and (max-width: 600px){
+       .input {
+              width: 100%;
+       }
+
+       .input input{
+              width: 85%;
+              }
+}

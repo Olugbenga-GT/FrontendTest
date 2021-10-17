@@ -1,0 +1,15 @@
+.chat {
+       background-color: #ffff;
+       padding-top: 2rem;
+}
+
+.chatBottom {
+       padding: 1rem 2.5rem;
+}
+
+@media screen and (max-width:600px){
+       .chatBottom {
+              padding: 1rem 1.5rem;
+       }
+       
+}
