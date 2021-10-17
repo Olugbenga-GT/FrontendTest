@@ -12,7 +12,7 @@ import mahbubs from '../../../asset/mahbubs.png'
 import solapes from '../../../asset/solapes.png'
 import ecllipse1 from '../../../asset/Ellipse1.png'
 import ecllipse2 from '../../../asset/Ellipse2.png'
-
+import { Link } from 'react-router-dom';
 
 
 function Chat(props) {
@@ -59,12 +59,27 @@ function Chat(props) {
                                    ]} 
                                    className ={classes.slider}
                                    >  
-                                          <img src={mahbubs} alt="user" />
-                                          <img src={solapes} alt="user" />
-                                          <img src={brandons} alt="user" />
-                                          <img src={solapes} alt="user" />
-                                          <img src={mahbubs} alt="user" />
-                                          <img src={brandons} alt="user" />
+                                          <Link to ='/space'>
+                                                 <img src={mahbubs} alt="user" />
+                                          </Link>
+                                          <Link to ='/space'>
+                                                 <img src={mahbubs} alt="user" />
+                                          </Link>
+                                          <Link to ='/space'>
+                                                 <img src={solapes} alt="user" />
+                                          </Link>
+                                          <Link to ='/space'>
+                                                 <img src={brandons} alt="user" />
+                                          </Link>
+                                          <Link to ='/space'>
+                                                 <img src={solapes} alt="user" />
+                                          </Link>
+                                          <Link to ='/space'>
+                                                 <img src={mahbubs} alt="user" />
+                                          </Link>
+                                          <Link to ='/space'>
+                                                 <img src={brandons} alt="user" />
+                                          </Link>
                                    </Carousel>
   
  

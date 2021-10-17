@@ -7,6 +7,7 @@
 .headerNav > img{
        padding: .5rem 1rem;
        width: 6.5rem;
+       cursor: pointer;
 }
 
 .headerNavLeft {

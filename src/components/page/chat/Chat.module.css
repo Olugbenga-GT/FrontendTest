@@ -14,11 +14,16 @@
 .slider img{
        width: 10rem;
        margin-right: 1rem;
+       cursor: pointer;
  }
  
 .chatBottom,
 .chatTop{
        padding: 1rem 2.5rem;
+}
+.chatBottom .dot {
+       display: flex;
+       justify-content: center;
 }
 .chatBottom .dot img {
        margin-right: 2rem;
