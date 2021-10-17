@@ -4,13 +4,20 @@ import logo from '../../../asset/logo.svg'
 import followers from '../../../asset/followers.svg'
 import gems from '../../../asset/gems.png'
 import avatar from '../../../asset/avatar.png'
+import { useHistory } from 'react-router-dom';
 
 
 function Header(props) {
+
+       const history = useHistory();
        return (
               <header className ={classes.header}>
                      <div className ={classes.headerNav}>
-                            <img src={logo} alt="logo" />
+
+                                   <img src={logo} alt="logo" 
+                                   onClick = { (() => {history.push('/')})}
+                                   />
+
                      </div>
                      <div className ={classes.headerNavLeft}>
                             <span>
