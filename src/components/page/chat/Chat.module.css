@@ -2,14 +2,45 @@
        background-color: #ffff;
        padding-top: 2rem;
 }
-
-.chatBottom {
+.chat h2 {
+       font-family: Work Sans;
+       font-weight: 600;
+       font-size: 2rem;
+       letter-spacing: 1px;
+       text-transform: capitalize;
+       color: #7F7F7F;
+       text-align: left;
+}
+.slider img{
+       width: 10rem;
+       margin-right: 1rem;
+ }
+ 
+.chatBottom,
+.chatTop{
        padding: 1rem 2.5rem;
+}
+.chatBottom .dot img {
+       margin-right: 2rem;
+       margin-bottom: 2rem;
 }
 
 @media screen and (max-width:600px){
+       .chat h2 {
+              font-size: 1.6rem;
+       }
        .chatBottom {
               padding: 1rem 1.5rem;
        }
+
+       .chatBottom .dot img {
+              margin-right: 1rem;
+              margin-bottom: 2rem;
+       }
+       .slider img{
+              width: 5rem;
+              margin-right: 1rem;
+        }
+        
        
 }
