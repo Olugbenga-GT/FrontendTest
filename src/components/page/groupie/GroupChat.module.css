@@ -1,0 +1,28 @@
+.groupchat {
+       padding: 2rem 2.5rem .5rem 2.5rem;
+}
+
+.invite {
+       display: flex;
+       align-items: center;
+       text-align: justify;
+}
+.invite img {
+       margin-right: .75rem;
+}
+
+.rolls {
+       color: #ED1C24;
+       text-transform: uppercase;
+       text-align: center;
+}
+.rolls img {
+       padding: 0  .25rem;
+}
+.download {
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+       width: 50%;
+       float: right;
+}

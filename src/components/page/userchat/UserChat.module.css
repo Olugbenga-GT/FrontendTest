@@ -1,0 +1,33 @@
+.userChat {
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       color: var(--light-grey);
+       margin-bottom: 1.5rem;
+}
+.userChat img {
+       height: 4rem;
+       margin-right: 1rem;
+}
+.userChat div {
+       margin-right: 1rem;
+}
+.userChat  div p {
+       display: block;
+       text-align: justify;
+}
+
+.userChat div p:first-child ,
+.userChat span p {
+       font-size: 1.2rem;
+       font-weight: bold;
+
+}
+
+@media screen and (max-width:600px){
+
+       .userChat img {
+              height: 4rem;
+              margin-right: 1rem;
+       }
+}
